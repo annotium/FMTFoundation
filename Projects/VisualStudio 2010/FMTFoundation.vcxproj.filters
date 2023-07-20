@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{a29975bf-8654-4332-9c16-1a48dde849d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{1fa3b414-2923-4dc2-8279-9ce4a2597af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Support\VisualStudio">
+      <UniqueIdentifier>{3f064b79-8817-4abc-9267-c07d2f863337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support\FMXSDK">
+      <UniqueIdentifier>{126a5f84-061e-4754-8db0-2db375c80398}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Sources\FMPlugin.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FMTConfig.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXBinaryData.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXCalcEngine.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXClient.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXData.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXDateTime.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXExtern.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXFixPt.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXText.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXTextStyle.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\FMPlugInSDK\Headers\FMWrapper\FMXTypes.h">
+      <Filter>Support\FMXSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FMTemplatePrefix.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FMTUtilities.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FMTSetup.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FMTZipUtils.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FMTConfigUtils.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FMTFileUtils.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FMTNetworkUtils.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\FMTSystemUtils.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Sources\FMPluginVersion.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Support\VisualStudio\FMPluginDllEntryPoint.cpp">
+      <Filter>Support\VisualStudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FMTConfigUtils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FMTFileUtils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FMTUtilities.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FMTNetworkUtils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FMTSystemUtils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FMTWindowsUtils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FMTSetup.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\FMTZipUtils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\Sources\FMTemplate.rc">
+      <Filter>Sources</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\..\Sources\FMTFoundation.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

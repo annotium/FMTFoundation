@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{76aecc4e-78aa-40a9-91a6-54e096d98d87}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="FMPlugin SDK">
+      <UniqueIdentifier>{a24a47b8-4059-408c-b645-2a16f8d65db1}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{3f616290-2e1b-4a44-b6cb-69b62aec18f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FMPlugInExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\FMPluginFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Support\FMPluginPrefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Support\FMPluginFunctions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\FMPluginGlobalDefines.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\FMPluginPrefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXBinaryData.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXCalcEngine.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXClient.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXData.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXDateTime.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXExtern.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXFixPt.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXText.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXTextStyle.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FMWrapper\FMXTypes.h">
+      <Filter>FMPlugin SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Support\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Support\FMPluginExample.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

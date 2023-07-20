@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		821E31BE078E906A004B645E /* FMPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 821E3176078E9069004B645E /* FMPlugin.h */; };
+		821E31C0078E906A004B645E /* FMPluginVersion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 821E3178078E9069004B645E /* FMPluginVersion.cpp */; };
+		821E31C6078E906C004B645E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821E31C4078E906C004B645E /* Carbon.framework */; };
+		82E58B840795DF7900592B32 /* FMTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E58B830795DF7900592B32 /* FMTConfig.h */; };
+		8C1D402F196C38AA00C3967E /* FMTemplatePrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1D402E196C38AA00C3967E /* FMTemplatePrefix.h */; };
+		8C8A18A219692AAF00D4601F /* FMTSetup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8A189919692AAF00D4601F /* FMTSetup.cpp */; };
+		8C8A18A319692AAF00D4601F /* FMTSetup.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8A189A19692AAF00D4601F /* FMTSetup.h */; };
+		8C8A18A519692AAF00D4601F /* FMTUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C8A189C19692AAF00D4601F /* FMTUtilities.cpp */; };
+		8C8A18A619692AAF00D4601F /* FMTUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8A189D19692AAF00D4601F /* FMTUtilities.h */; };
+		8C8A18B71969388500D4601F /* FMWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8A18B61969388500D4601F /* FMWrapper.framework */; };
+		8C99A4A11971870C00ECB015 /* libPocoFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C99A49C1971870C00ECB015 /* libPocoFoundation.a */; };
+		8C99A4A21971870C00ECB015 /* libPocoNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C99A49D1971870C00ECB015 /* libPocoNet.a */; };
+		8C99A4A31971870C00ECB015 /* libPocoUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C99A49E1971870C00ECB015 /* libPocoUtil.a */; };
+		8C99A4A41971870C00ECB015 /* libPocoXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C99A49F1971870C00ECB015 /* libPocoXML.a */; };
+		8C99A4A51971870C00ECB015 /* libPocoZip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C99A4A01971870C00ECB015 /* libPocoZip.a */; };
+		8CA5A818196EBD7D009F166D /* FMTConfigUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5A814196EBD7D009F166D /* FMTConfigUtils.cpp */; };
+		8CA5A819196EBD7D009F166D /* FMTFileUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5A815196EBD7D009F166D /* FMTFileUtils.cpp */; };
+		8CA5A81A196EBD7D009F166D /* FMTNetworkUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5A816196EBD7D009F166D /* FMTNetworkUtils.cpp */; };
+		8CA5A81B196EBD7D009F166D /* FMTSystemUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5A817196EBD7D009F166D /* FMTSystemUtils.cpp */; };
+		8CA5A826196ECA48009F166D /* FMTFileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA5A825196ECA48009F166D /* FMTFileUtils.h */; };
+		8CA5A82D196ECC14009F166D /* FMTConfigUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA5A82A196ECC14009F166D /* FMTConfigUtils.h */; };
+		8CA5A82E196ECC14009F166D /* FMTNetworkUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA5A82B196ECC14009F166D /* FMTNetworkUtils.h */; };
+		8CA5A82F196ECC14009F166D /* FMTSystemUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA5A82C196ECC14009F166D /* FMTSystemUtils.h */; };
+		8CA5A832196ECECE009F166D /* FMTZipUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CA5A831196ECECE009F166D /* FMTZipUtils.cpp */; };
+		8CAB43C5193E0A0D007E413B /* FMTemplatePrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43C2193E0A0D007E413B /* FMTemplatePrefix.h */; };
+		8CAB43D2193E1131007E413B /* FMXBinaryData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43C8193E1131007E413B /* FMXBinaryData.h */; };
+		8CAB43D3193E1131007E413B /* FMXCalcEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43C9193E1131007E413B /* FMXCalcEngine.h */; };
+		8CAB43D4193E1131007E413B /* FMXClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43CA193E1131007E413B /* FMXClient.h */; };
+		8CAB43D5193E1131007E413B /* FMXData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43CB193E1131007E413B /* FMXData.h */; };
+		8CAB43D6193E1131007E413B /* FMXDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43CC193E1131007E413B /* FMXDateTime.h */; };
+		8CAB43D7193E1131007E413B /* FMXExtern.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43CD193E1131007E413B /* FMXExtern.h */; };
+		8CAB43D8193E1131007E413B /* FMXFixPt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43CE193E1131007E413B /* FMXFixPt.h */; };
+		8CAB43D9193E1131007E413B /* FMXText.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43CF193E1131007E413B /* FMXText.h */; };
+		8CAB43DA193E1131007E413B /* FMXTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43D0193E1131007E413B /* FMXTextStyle.h */; };
+		8CAB43DB193E1131007E413B /* FMXTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB43D1193E1131007E413B /* FMXTypes.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		821E3176078E9069004B645E /* FMPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMPlugin.h; path = ../../Sources/FMPlugin.h; sourceTree = SOURCE_ROOT; };
+		821E3178078E9069004B645E /* FMPluginVersion.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FMPluginVersion.cpp; path = ../../Sources/FMPluginVersion.cpp; sourceTree = SOURCE_ROOT; };
+		821E31C4078E906C004B645E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8268659E0797E91A006EAC37 /* infoplist.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = infoplist.template; sourceTree = "<group>"; };
+		8268659F0797E91A006EAC37 /* localizablestrings.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = localizablestrings.template; sourceTree = "<group>"; };
+		826865A00797E91A006EAC37 /* 24u_plist_compiler.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = 24u_plist_compiler.sh; sourceTree = "<group>"; };
+		826865A10797E91A006EAC37 /* myplc.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = myplc.c; sourceTree = "<group>"; };
+		82D72FDF07BE25630063F5A9 /* FMTFoundationD.fmplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMTFoundationD.fmplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E58B830795DF7900592B32 /* FMTConfig.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FMTConfig.h; path = ../../Sources/FMTConfig.h; sourceTree = SOURCE_ROOT; };
+		8C1D402E196C38AA00C3967E /* FMTemplatePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTemplatePrefix.h; path = ../../Sources/FMTemplatePrefix.h; sourceTree = "<group>"; };
+		8C8A189919692AAF00D4601F /* FMTSetup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FMTSetup.cpp; path = ../../Sources/FMTSetup.cpp; sourceTree = "<group>"; };
+		8C8A189A19692AAF00D4601F /* FMTSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTSetup.h; path = ../../Sources/FMTSetup.h; sourceTree = "<group>"; };
+		8C8A189C19692AAF00D4601F /* FMTUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FMTUtilities.cpp; path = ../../Sources/FMTUtilities.cpp; sourceTree = "<group>"; };
+		8C8A189D19692AAF00D4601F /* FMTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTUtilities.h; path = ../../Sources/FMTUtilities.h; sourceTree = "<group>"; };
+		8C8A18B61969388500D4601F /* FMWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMWrapper.framework; path = ../../Support/FMPlugInSDK/Libraries/Mac/FMWrapper.framework; sourceTree = "<group>"; };
+		8C99A49C1971870C00ECB015 /* libPocoFoundation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoFoundation.a; path = "../../../poco-1.4.6p4-all/lib/Darwin/Universal/libPocoFoundation.a"; sourceTree = "<group>"; };
+		8C99A49D1971870C00ECB015 /* libPocoNet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoNet.a; path = "../../../poco-1.4.6p4-all/lib/Darwin/Universal/libPocoNet.a"; sourceTree = "<group>"; };
+		8C99A49E1971870C00ECB015 /* libPocoUtil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoUtil.a; path = "../../../poco-1.4.6p4-all/lib/Darwin/Universal/libPocoUtil.a"; sourceTree = "<group>"; };
+		8C99A49F1971870C00ECB015 /* libPocoXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoXML.a; path = "../../../poco-1.4.6p4-all/lib/Darwin/Universal/libPocoXML.a"; sourceTree = "<group>"; };
+		8C99A4A01971870C00ECB015 /* libPocoZip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPocoZip.a; path = "../../../poco-1.4.6p4-all/lib/Darwin/Universal/libPocoZip.a"; sourceTree = "<group>"; };
+		8CA5A814196EBD7D009F166D /* FMTConfigUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FMTConfigUtils.cpp; path = ../../Sources/FMTConfigUtils.cpp; sourceTree = "<group>"; };
+		8CA5A815196EBD7D009F166D /* FMTFileUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FMTFileUtils.cpp; path = ../../Sources/FMTFileUtils.cpp; sourceTree = "<group>"; };
+		8CA5A816196EBD7D009F166D /* FMTNetworkUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FMTNetworkUtils.cpp; path = ../../Sources/FMTNetworkUtils.cpp; sourceTree = "<group>"; };
+		8CA5A817196EBD7D009F166D /* FMTSystemUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FMTSystemUtils.cpp; path = ../../Sources/FMTSystemUtils.cpp; sourceTree = "<group>"; };
+		8CA5A825196ECA48009F166D /* FMTFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTFileUtils.h; path = ../../Sources/FMTFileUtils.h; sourceTree = "<group>"; };
+		8CA5A82A196ECC14009F166D /* FMTConfigUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTConfigUtils.h; path = ../../Sources/FMTConfigUtils.h; sourceTree = "<group>"; };
+		8CA5A82B196ECC14009F166D /* FMTNetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTNetworkUtils.h; path = ../../Sources/FMTNetworkUtils.h; sourceTree = "<group>"; };
+		8CA5A82C196ECC14009F166D /* FMTSystemUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMTSystemUtils.h; path = ../../Sources/FMTSystemUtils.h; sourceTree = "<group>"; };
+		8CA5A830196ECE72009F166D /* FMTZipUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMTZipUtils.h; path = ../../Sources/FMTZipUtils.h; sourceTree = "<group>"; };
+		8CA5A831196ECECE009F166D /* FMTZipUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FMTZipUtils.cpp; path = ../../Sources/FMTZipUtils.cpp; sourceTree = "<group>"; };
+		8CAB43C2193E0A0D007E413B /* FMTemplatePrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTemplatePrefix.h; sourceTree = "<group>"; };
+		8CAB43C8193E1131007E413B /* FMXBinaryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXBinaryData.h; sourceTree = "<group>"; };
+		8CAB43C9193E1131007E413B /* FMXCalcEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXCalcEngine.h; sourceTree = "<group>"; };
+		8CAB43CA193E1131007E413B /* FMXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXClient.h; sourceTree = "<group>"; };
+		8CAB43CB193E1131007E413B /* FMXData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXData.h; sourceTree = "<group>"; };
+		8CAB43CC193E1131007E413B /* FMXDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXDateTime.h; sourceTree = "<group>"; };
+		8CAB43CD193E1131007E413B /* FMXExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXExtern.h; sourceTree = "<group>"; };
+		8CAB43CE193E1131007E413B /* FMXFixPt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXFixPt.h; sourceTree = "<group>"; };
+		8CAB43CF193E1131007E413B /* FMXText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXText.h; sourceTree = "<group>"; };
+		8CAB43D0193E1131007E413B /* FMXTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXTextStyle.h; sourceTree = "<group>"; };
+		8CAB43D1193E1131007E413B /* FMXTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMXTypes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821E3170078E9069004B645E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C99A4A11971870C00ECB015 /* libPocoFoundation.a in Frameworks */,
+				8C99A4A21971870C00ECB015 /* libPocoNet.a in Frameworks */,
+				8C99A4A31971870C00ECB015 /* libPocoUtil.a in Frameworks */,
+				8C99A4A41971870C00ECB015 /* libPocoXML.a in Frameworks */,
+				8C99A4A51971870C00ECB015 /* libPocoZip.a in Frameworks */,
+				821E31C6078E906C004B645E /* Carbon.framework in Frameworks */,
+				8C8A18B71969388500D4601F /* FMWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		821E3161078E9068004B645E = {
+			isa = PBXGroup;
+			children = (
+				821E317A078E9069004B645E /* Support */,
+				821E3174078E9069004B645E /* Sources */,
+				821E3179078E9069004B645E /* Resources */,
+				821E318C078E9069004B645E /* Libraries */,
+				821E31C3078E906C004B645E /* Frameworks */,
+				82D72FDF07BE25630063F5A9 /* FMTFoundationD.fmplugin */,
+			);
+			sourceTree = "<group>";
+		};
+		821E3174078E9069004B645E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8CA5A82A196ECC14009F166D /* FMTConfigUtils.h */,
+				8CA5A82B196ECC14009F166D /* FMTNetworkUtils.h */,
+				8CA5A82C196ECC14009F166D /* FMTSystemUtils.h */,
+				8CA5A825196ECA48009F166D /* FMTFileUtils.h */,
+				8CA5A815196EBD7D009F166D /* FMTFileUtils.cpp */,
+				8CA5A814196EBD7D009F166D /* FMTConfigUtils.cpp */,
+				8CA5A816196EBD7D009F166D /* FMTNetworkUtils.cpp */,
+				8CA5A817196EBD7D009F166D /* FMTSystemUtils.cpp */,
+				8C1D402E196C38AA00C3967E /* FMTemplatePrefix.h */,
+				8C8A189919692AAF00D4601F /* FMTSetup.cpp */,
+				8C8A189A19692AAF00D4601F /* FMTSetup.h */,
+				8C8A189C19692AAF00D4601F /* FMTUtilities.cpp */,
+				8C8A189D19692AAF00D4601F /* FMTUtilities.h */,
+				8CAB43C2193E0A0D007E413B /* FMTemplatePrefix.h */,
+				821E3176078E9069004B645E /* FMPlugin.h */,
+				82E58B830795DF7900592B32 /* FMTConfig.h */,
+				821E3178078E9069004B645E /* FMPluginVersion.cpp */,
+				8CA5A830196ECE72009F166D /* FMTZipUtils.h */,
+				8CA5A831196ECECE009F166D /* FMTZipUtils.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		821E3179078E9069004B645E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		821E317A078E9069004B645E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8CAB43C6193E10DE007E413B /* FMPlugInSDK */,
+				8268659D0797E91A006EAC37 /* XCode */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		821E318C078E9069004B645E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		821E31C3078E906C004B645E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C99A49C1971870C00ECB015 /* libPocoFoundation.a */,
+				8C99A49D1971870C00ECB015 /* libPocoNet.a */,
+				8C99A49E1971870C00ECB015 /* libPocoUtil.a */,
+				8C99A49F1971870C00ECB015 /* libPocoXML.a */,
+				8C99A4A01971870C00ECB015 /* libPocoZip.a */,
+				8C8A18B61969388500D4601F /* FMWrapper.framework */,
+				821E31C4078E906C004B645E /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8268659D0797E91A006EAC37 /* XCode */ = {
+			isa = PBXGroup;
+			children = (
+				8268659E0797E91A006EAC37 /* infoplist.template */,
+				8268659F0797E91A006EAC37 /* localizablestrings.template */,
+				826865A00797E91A006EAC37 /* 24u_plist_compiler.sh */,
+				826865A10797E91A006EAC37 /* myplc.c */,
+			);
+			name = XCode;
+			path = ../../Support/XCode;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CAB43C6193E10DE007E413B /* FMPlugInSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8CAB43C8193E1131007E413B /* FMXBinaryData.h */,
+				8CAB43C9193E1131007E413B /* FMXCalcEngine.h */,
+				8CAB43CA193E1131007E413B /* FMXClient.h */,
+				8CAB43CB193E1131007E413B /* FMXData.h */,
+				8CAB43CC193E1131007E413B /* FMXDateTime.h */,
+				8CAB43CD193E1131007E413B /* FMXExtern.h */,
+				8CAB43CE193E1131007E413B /* FMXFixPt.h */,
+				8CAB43CF193E1131007E413B /* FMXText.h */,
+				8CAB43D0193E1131007E413B /* FMXTextStyle.h */,
+				8CAB43D1193E1131007E413B /* FMXTypes.h */,
+			);
+			name = FMPlugInSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		821E316D078E9069004B645E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAB43D9193E1131007E413B /* FMXText.h in Headers */,
+				8CAB43D3193E1131007E413B /* FMXCalcEngine.h in Headers */,
+				8CAB43DA193E1131007E413B /* FMXTextStyle.h in Headers */,
+				8CA5A82F196ECC14009F166D /* FMTSystemUtils.h in Headers */,
+				8CAB43C5193E0A0D007E413B /* FMTemplatePrefix.h in Headers */,
+				8CAB43DB193E1131007E413B /* FMXTypes.h in Headers */,
+				8C1D402F196C38AA00C3967E /* FMTemplatePrefix.h in Headers */,
+				8C8A18A619692AAF00D4601F /* FMTUtilities.h in Headers */,
+				8CAB43D4193E1131007E413B /* FMXClient.h in Headers */,
+				8CAB43D6193E1131007E413B /* FMXDateTime.h in Headers */,
+				8CA5A826196ECA48009F166D /* FMTFileUtils.h in Headers */,
+				8CAB43D2193E1131007E413B /* FMXBinaryData.h in Headers */,
+				8C8A18A319692AAF00D4601F /* FMTSetup.h in Headers */,
+				821E31BE078E906A004B645E /* FMPlugin.h in Headers */,
+				82E58B840795DF7900592B32 /* FMTConfig.h in Headers */,
+				8CAB43D5193E1131007E413B /* FMXData.h in Headers */,
+				8CA5A82E196ECC14009F166D /* FMTNetworkUtils.h in Headers */,
+				8CAB43D8193E1131007E413B /* FMXFixPt.h in Headers */,
+				8CA5A82D196ECC14009F166D /* FMTConfigUtils.h in Headers */,
+				8CAB43D7193E1131007E413B /* FMXExtern.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		821E3172078E9069004B645E /* FMPlugin Mac OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CC614C0A3F262D007E1972 /* Build configuration list for PBXNativeTarget "FMPlugin Mac OS X" */;
+			buildPhases = (
+				821E316D078E9069004B645E /* Headers */,
+				821E316E078E9069004B645E /* Sources */,
+				821E316F078E9069004B645E /* Resources */,
+				821E3170078E9069004B645E /* Frameworks */,
+				821E3171078E9069004B645E /* Rez */,
+				821D6C120790416A00D2EE80 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMPlugin Mac OS X";
+			productName = "FMPlugin Mac OS X Release";
+			productReference = 82D72FDF07BE25630063F5A9 /* FMTFoundationD.fmplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821E31C7078E906C004B645E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = B9CC61500A3F262E007E1972 /* Build configuration list for PBXProject "FMTFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 821E3161078E9068004B645E;
+			productRefGroup = 821E3161078E9068004B645E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821E3172078E9069004B645E /* FMPlugin Mac OS X */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821E316F078E9069004B645E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		821E3171078E9069004B645E /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		821D6C120790416A00D2EE80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				$BUILD_DIR/$EXECUTABLE_PATH,
+				../../Support/XCode/localizablestrings.template,
+				../../Support/XCode/infoplist.template,
+				../../Support/XCode/myplc.c,
+				../../Support/XCode/24u_plist_compiler.sh,
+			);
+			outputPaths = (
+				$BUILD_DIR/$INFOPLIST_PATH,
+				$BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/English.lproj/Localizable.strings,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PROJECT_DIR=`pwd`\nexport XCODE_SUPPORT_DIR=\"$PROJECT_DIR/../../Support/XCode\"\n\ngcc -E -P  -I\"$PROJECT_DIR/../../Sources\"   \"$XCODE_SUPPORT_DIR/myplc.c\" | grep my_ |\"$XCODE_SUPPORT_DIR/24u_plist_compiler.sh\"\n\n# Create the file Pckginfo\necho \"BNDL????\" > \"$BUILD_DIR/$PKGINFO_PATH\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821E316E078E9069004B645E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8A18A219692AAF00D4601F /* FMTSetup.cpp in Sources */,
+				8CA5A818196EBD7D009F166D /* FMTConfigUtils.cpp in Sources */,
+				8CA5A81A196EBD7D009F166D /* FMTNetworkUtils.cpp in Sources */,
+				8CA5A832196ECECE009F166D /* FMTZipUtils.cpp in Sources */,
+				8CA5A819196EBD7D009F166D /* FMTFileUtils.cpp in Sources */,
+				8CA5A81B196EBD7D009F166D /* FMTSystemUtils.cpp in Sources */,
+				8C8A18A519692AAF00D4601F /* FMTUtilities.cpp in Sources */,
+				821E31C0078E906A004B645E /* FMPluginVersion.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9CC614D0A3F262D007E1972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = ../../Output;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Support/FMPlugInSDK/Libraries/Mac,
+					/Users/me/Workspaces/Libraries/CPP/FMTFoundation/Support/FMPlugInSDK/Libraries/Mac,
+					"$(PROJECT_DIR)/Mac",
+					"../../../poco-1.4.6p4-all/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../Sources/FMTemplatePrefix.h";
+				GCC_PREPROCESSOR_DEFINITIONS = POCO_STATIC;
+				HEADER_SEARCH_PATHS = (
+					../../Support,
+					"../../../poco-1.4.6p4-all/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/me/Workspaces/Libraries/CPP/poco-1.4.6p4-all/lib/Darwin/x86_64",
+					"/Users/me/Workspaces/Libraries/CPP/poco-1.4.6p4-all/lib/Darwin/Universal",
+				);
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = FMTFoundationD;
+				SDKROOT = macosx;
+				VALID_ARCHS = "x64 i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Debug;
+		};
+		B9CC614E0A3F262D007E1972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Support/FMPlugInSDK/Libraries/Mac,
+					/Users/me/Workspaces/Libraries/CPP/FMTFoundation/Support/FMPlugInSDK/Libraries/Mac,
+					"$(PROJECT_DIR)/Mac",
+					"../../../poco-1.4.6p4-all/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../Sources/FMTemplatePrefix.h";
+				GCC_PREPROCESSOR_DEFINITIONS = POCO_STATIC;
+				HEADER_SEARCH_PATHS = (
+					../../Support,
+					"../../../poco-1.4.6p4-all/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/me/Workspaces/Libraries/CPP/poco-1.4.6p4-all/lib/Darwin/x86_64",
+					"/Users/me/Workspaces/Libraries/CPP/poco-1.4.6p4-all/lib/Darwin/Universal",
+				);
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = FMTFoundation;
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "x64 i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = fmplugin;
+			};
+			name = Release;
+		};
+		B9CC61510A3F262E007E1972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = ../../Output;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../Sources/FMTemplatePrefix.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					POCO_STATIC,
+					"FMPLUGIN_DEBUG=1",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OBJROOT = ../../Temp;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = FMTFoundation;
+				SDKROOT = macosx;
+				SYMROOT = ../../Output;
+				VALID_ARCHS = "x64 i386 x86_64";
+			};
+			name = Debug;
+		};
+		B9CC61520A3F262E007E1972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = ../../Output;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../Sources/FMTemplatePrefix.h";
+				GCC_PREPROCESSOR_DEFINITIONS = POCO_STATIC;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OBJROOT = ../../Temp;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fno-constant-cfstrings";
+				PRODUCT_NAME = FMTFoundation;
+				SDKROOT = macosx;
+				SYMROOT = ../../Output;
+				VALID_ARCHS = "x64 i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9CC614C0A3F262D007E1972 /* Build configuration list for PBXNativeTarget "FMPlugin Mac OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CC614D0A3F262D007E1972 /* Debug */,
+				B9CC614E0A3F262D007E1972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9CC61500A3F262E007E1972 /* Build configuration list for PBXProject "FMTFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CC61510A3F262E007E1972 /* Debug */,
+				B9CC61520A3F262E007E1972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821E31C7078E906C004B645E /* Project object */;
+}

@@ -1,3 +1,3 @@
 # FMTFoundation
 
-Base FileMaker plugin
+Base FM plugin
